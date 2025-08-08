@@ -1,0 +1,119 @@
+*,*::after,*::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+  scroll-behavior: smooth;
+}
+.navbar-brand{
+  text-shadow: 3px 2px 2px #333;
+}
+body h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.navbar-nav li>a:hover{
+  text-decoration: underline;
+  text-transform: capitalize;
+  color:#333;
+  transform: 0.5ms;
+  text-shadow: 1px 1px 1px #333;
+
+}
+
+.card-body{
+    box-shadow: 5px 5px 5xp 10px #333;
+    color: gray;
+    border-radius: 30px 0px 30px 0px;
+    font-style: oblique;
+}
+.card{
+    box-shadow: 5px 5px 5xp 10px #333;
+    color: gray;
+    border-radius: 30px 0px 30px 0px;
+    font-style: oblique;
+}
+.hero-section img{
+    box-shadow: 5px 5px  5px #eec1c1;
+    color: gray;
+    border-radius: 0px 60px 0px 60px;
+    font-style: oblique;
+}
+.accordion-body{
+    box-shadow: 5px 5px  5px #eec1c1;
+    color: gray;
+    border-radius: 0px 60px 0px 0px;
+    font-style: oblique;
+}
+.form-area{
+    text-align: start;
+    padding-top: 7%;
+}
+.row.single-form{
+    box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+    background: #fff;
+}
+.left{
+    background-color:gray;
+    padding: 200px 93px;
+
+}
+.left h2{
+    font-family: poppins;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 48px;
+}
+.left h2 span{
+    font-weight: 100;
+}
+.right{
+    padding: 70px 100px;
+    position: relative;
+}
+.right i{
+    position: absolute;
+    font-size: 80px;
+    left:-27px;
+    top:40%;
+    color: #fff;
+}
+.form-control{
+    border: 2px solid #000;
+
+}
+.right button{
+    border:none;
+    border-radius: 0;
+    background-color: #252525;
+    width: 180px;
+    color: #fff;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+@media(max-width:767px){
+  .left{
+    padding: 90px 15px;
+    text-align: center;
+  }
+  .left h2{
+    font-size: 25px;
+  }
+  .right{
+    padding: 25px;
+  }
+  .right i{
+    top:-52px;
+    transform: rotate(90deg);
+    left: 45%;
+  }
+  .right button{
+    width: 150px;
+    padding: 12px 0;
+  }
+}
